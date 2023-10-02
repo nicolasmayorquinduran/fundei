@@ -8,18 +8,18 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 const Hero = ({
   listUser = [
     {
-      name: "Users",
-      number: "390",
+      name: "Familias impactadas",
+      number: "40",
       icon: "/assets/Icon/heroicons_sm-user.svg",
     },
     {
-      name: "Locations",
-      number: "20",
+      name: "Colaboradores",
+      number: "100",
       icon: "/assets/Icon/gridicons_location.svg",
     },
     {
-      name: "Server",
-      number: "50",
+      name: "Alianzas y convenios",
+      number: "30",
       icon: "/assets/Icon/bx_bxs-server.svg",
     },
   ],
@@ -37,11 +37,10 @@ const Hero = ({
             variants={scrollAnimation}>
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-                Want anything to be easy with <strong>LaslesVPN</strong>.
+                Por personas de capacidades diversas <strong>más felices</strong>.
               </h1>
               <p className="text-black-500 mt-4 mb-6">
-                Provide a network for all your needs with ease and fun using
-                LaslesVPN discover interesting features from us.
+                + CALIDAD DE VIDA para población en condición de discapacidad cognitiva y mental.
               </p>
               <ButtonPrimary>Get Started</ButtonPrimary>
             </div>
@@ -70,7 +69,7 @@ const Hero = ({
               variants={scrollAnimation}
             >
               <div className="flex mx-auto w-40 sm:w-auto">
-                <div className="flex items-center justify-center bg-orange-100 w-12 h-12 mr-6 rounded-full">
+                <div className="flex items-center justify-center bg-primary-100 w-12 h-12 mr-6 rounded-full">
                   <img src={listUsers.icon} className="h-6 w-6" />
                 </div>
                 <div className="flex flex-col">
