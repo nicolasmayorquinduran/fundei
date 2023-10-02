@@ -1,6 +1,6 @@
 import React from "react";
 
-const ButtonPrimary = ({ children, addClass }) => {
+const ButtonPrimary = ({ children, addClass }:any) => {
   return (
     <button
       className={

@@ -1,6 +1,6 @@
 import {motion} from "framer-motion";
 
-export default function ScrollAnimationWrapper({children, className, ...props}) {
+export default function ScrollAnimationWrapper({children, className, ...props}:any) {
   return (
     <motion.div
       initial="offscreen"
@@ -13,3 +13,4 @@ export default function ScrollAnimationWrapper({children, className, ...props}) 
     </motion.div>
   )
 }
+

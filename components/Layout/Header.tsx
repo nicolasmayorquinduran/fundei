@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 // Import react scroll
 import { Link as LinkScroll } from "react-scroll";
-import ButtonOutline from "../misc/ButtonOutline.";
+import ButtonOutline from "../misc/ButtonOutline";
 import LogoVPN from "../../public/assets/Logo.svg";
 
 const Header = () => {
-  const [activeLink, setActiveLink] = useState(null);
+  const [activeLink, setActiveLink] = useState<any>(null);
   const [scrollActive, setScrollActive] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
