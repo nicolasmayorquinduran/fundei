@@ -23,7 +23,7 @@ const Pricing = () => {
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed"
             >
-              Choose Your Plan
+              Sé un Ángel guardían
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
@@ -54,7 +54,7 @@ const Pricing = () => {
                   />
                 </div>
                 <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                  Free Plan
+                  Bronze Plan
                 </p>
                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                   <li className="relative check custom-list my-2">
@@ -72,7 +72,7 @@ const Pricing = () => {
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                   <p className="text-2xl text-black-600 text-center mb-4 ">
-                    Free
+                    $50.000 / mes
                   </p>
                   <ButtonOutline>Select</ButtonOutline>
                 </div>
@@ -98,7 +98,7 @@ const Pricing = () => {
                 />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Standard Plan{" "}
+                Silver Plan{" "}
               </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                 <li className="relative check custom-list my-2">
@@ -119,7 +119,7 @@ const Pricing = () => {
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                  $9 <span className="text-black-500">/ mo</span>
+                  $200.000 / mes <span className="text-black-500">/ mo</span>
                 </p>
                 <ButtonOutline>Select</ButtonOutline>
               </div>
@@ -145,7 +145,7 @@ const Pricing = () => {
                 />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Premium Plan{" "}
+                Gold Plan{" "}
               </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                 <li className="relative check custom-list my-2">
@@ -169,7 +169,7 @@ const Pricing = () => {
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                  $12 <span className="text-black-500">/ mo</span>
+                  $400.000 / mes  <span className="text-black-500">/ mo</span>
                 </p>
 
                 <ButtonOutline>Select</ButtonOutline>
@@ -184,7 +184,7 @@ const Pricing = () => {
             <motion.h3
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
-              Trusted by Thousands of Happy Customer{" "}
+              Casos de Éxito{" "}
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
