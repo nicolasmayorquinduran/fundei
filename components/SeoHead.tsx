@@ -35,7 +35,7 @@ const defaultMeta = {
  * @example
  * <SeoHead title="Page's Title" />
  */
-const SeoHead = (props) => {
+const SeoHead = (props:any) => {
   const router = useRouter();
   const meta = {
     ...defaultMeta,

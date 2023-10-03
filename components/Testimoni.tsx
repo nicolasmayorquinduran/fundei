@@ -49,7 +49,7 @@ const Testimoni = ({
 }) => {
   const settings = {
     dots: true,
-    customPaging: function (i) {
+    customPaging: function (i:any) {
       return (
         <a className="">
           <span className="mx-2 rounded-l-full rounded-r-full h-4 w-4 block cursor-pointer transition-all "></span>
@@ -79,7 +79,7 @@ const Testimoni = ({
       },
     ],
   };
-  const [sliderRef, setSliderRef] = useState(null);
+  const [sliderRef, setSliderRef] = useState<any>(null);
 
   return (
     <>
